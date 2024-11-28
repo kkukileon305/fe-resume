@@ -12,7 +12,8 @@ const Header = async () => {
     <header className="bg-white shadow sticky top-0">
       <div className="max-w-4xl mx-auto flex justify-between">
         <h1>Resume</h1>
-        <LogInOut />
+        {user?.id}
+        <LogInOut user={user} />
       </div>
     </header>
   );
