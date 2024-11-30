@@ -28,7 +28,7 @@ const LoginModal = ({ setIsOpen }: LoginModalProps) => {
   };
 
   return (
-    <div className="fixed left-0 top-0 w-full h-full z-30 bg-black/50 flex justify-center items-center p-2">
+    <div className="animate-fade-in fixed left-0 top-0 w-full h-full z-30 bg-black/50 flex justify-center items-center p-2">
       <div className="max-w-xl w-full p-4 bg-white rounded-xl shadow-lg flex flex-col items-center">
         <Image
           src={GoogleLoginImage}

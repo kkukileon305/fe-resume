@@ -19,7 +19,7 @@ export default {
         },
       },
       animation: {
-        "fade-up": "fadeUp 0.5s cubic-bezier(0, 0, 0.1, 1) 1 normal forwards",
+        "fade-in": "fadeIn 0.5s cubic-bezier(0, 0, 0.1, 1) 1 normal forwards",
       },
     },
   },
